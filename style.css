@@ -387,6 +387,11 @@ color: black;
 
 /*start contact*/
 
+.contact-details{
+    flex: 1;
+    
+}
+
 .contact-list {
     list-style: none;
     width: 100%;
@@ -400,6 +405,7 @@ color: black;
 
 .contact-list li{
     padding: 10px 0;
+    text-align: center;
 }
 
 .contact-list h3{
