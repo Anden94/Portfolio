@@ -252,14 +252,15 @@ li{
     font-weight: 300;
 }
 
-.profile-img{    
-    margin-right: 5rem; 
-    width: 70%;
-    
+.profile-img img{    
+    width: 100%;
+    height: auto; 
+     
 }
 
 .about-details{
     flex: 1;
+    margin: 0 0 0 20rem;
 }
 
 .social-media{
@@ -664,9 +665,15 @@ color: black;
     }
 
     .profile-img{
-        margin: 0 0 7rem 0;    
-        width:40%;   
+        margin: 0 0 7rem 0;   
+        text-align: center; 
         
+        
+    }
+
+    .about-details{
+        flex: 1;
+        margin: 0;
     }
 
     .portfolio-item{
