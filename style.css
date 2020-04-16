@@ -13,7 +13,7 @@ html{ /* % och rem används för responsiv, px fungerar inte*/
 body{
 width: 100%;
 height: 100%;
-background: url(background-image.jpg) no-repeat center fixed;
+background: url(Bilder/background-image.jpg) no-repeat center fixed;
 background-size: cover;
 }
 
@@ -357,69 +357,54 @@ color: black;
     padding: 5rem;
     list-style: none;
     text-align: left;
-    width: 70%;
+    width: 100%;
 
 }
 
 .timeline h1{
     font-size: 2rem;
     text-transform: uppercase;
-    font-weight: 300;
-    margin-bottom: 1rem;
+    font-weight: 300;    
     opacity: .3;
 }
 
-.timeline .date{
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+.timeline h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;    
     margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-
 }
 
-.timeline .date:last-of-type{
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border: none;
-}
 
-.timeline .date::before,
-.timeline .date::after{
-    position: absolute;
-    display: block;
-    top: 50%;
-    transform: translateY(-50%);
 
-}
 
-.timeline .date::before{
-    content: attr(data-date);
-    left: -21rem;
-    text-align: right;
-    min-width: 12rem;
-    font-size: 1.5rem;
-}
-
-.timeline .date::after{
-    content:'';
-    box-shadow: 0 0 0 4px #fd57bf;
-    border-radius: 100%;
-    left: -8rem;
-    height: 1.5rem;
-    width: 1.5rem;
-    background-color: #313534;
-
-}
 
 /*end timeline*/
 
 /*start contact*/
 
-.nav-list i{
-    padding: 0.5rem;
-    text-align: center;
+.contact-list {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
 
 }
+
+.contact-list li{
+    padding: 10px 0;
+}
+
+.contact-list h3{
+    padding: 10px 0 0 0;
+}
+
+
+
+
 
 
 
@@ -489,7 +474,7 @@ color: black;
 
     body{
         
-        background: url(background-image.jpg) no-repeat center fixed;
+        background: url(Bilder/background-image.jpg) no-repeat center fixed;
         background-size: cover;
     }
 
@@ -563,15 +548,7 @@ color: black;
         margin: 0 0 0 auto;
     }
 
-    .timeline .date::before{
-        left: -20rem;
-        
-    }
-
-    .timeline .date::after{
-        left: -5.9rem;
-
-    }   
+    
 
 }
 
@@ -581,7 +558,7 @@ color: black;
     
     body{
         
-        background: url(background-image.jpg) no-repeat center fixed;
+        background: url(Bilder/background-image.jpg) no-repeat center fixed;
         background-size: cover;
     }
 
@@ -649,22 +626,14 @@ color: black;
         margin: 0 0 0 auto;
     }
 
-    .timeline .date::before{
-        left: -20rem;
-        
-    }
-
-    .timeline .date::after{
-        left: -5.9rem;
-
-    }   
+    
 
 }
 
 @media screen and (max-width: 600px){
     body{
         
-        background: url(background-image.jpg) no-repeat center fixed;
+        background: url(Bilder/background-image.jpg) no-repeat center fixed;
         background-size: cover;
     }
 
@@ -714,19 +683,17 @@ color: black;
         order:2;
 
     }
+    
 
     .timeline p{
         font-size: 1.5rem;
 
     }
 
-    .timeline .date::before{
-        font-size: 1.4rem;
-    }
+    
 
-    form{
-        width: 100%;
-
+    .contact-list{
+        display: grid;
     }
 
     .up{
