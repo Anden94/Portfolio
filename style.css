@@ -31,10 +31,10 @@ p{
     font-size: 1.8rem;
     font-weight: 300;
 }
-img{
+/* img{
     width: 100%;
     height:auto;
-}
+} */
 
 
 
@@ -252,9 +252,9 @@ li{
     font-weight: 300;
 }
 
-.profile-img{
-    flex: 1;
+.profile-img{    
     margin-right: 5rem; 
+    width: 70%;
     
 }
 
@@ -308,9 +308,9 @@ color: black;
     margin-bottom: 0;
 }
 
-.profile-img{
-    width: 50rem;    
-    flex: 1;
+.portfolio-img img {
+    width: 70%;
+    height: auto;
 
 }
 
@@ -375,6 +375,9 @@ color: black;
     margin-bottom: 1rem;
 }
 
+.date h1{
+    margin: 1rem 0 0 0;
+}
 
 
 
