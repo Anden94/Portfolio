@@ -317,7 +317,10 @@ color: black;
 .portfolio-img img {
     width: 70%;
     height: auto;
+}
 
+.portfolio-img{
+    text-align: center;   
 }
 
 
