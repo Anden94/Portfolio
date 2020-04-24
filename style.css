@@ -31,6 +31,10 @@ p{
     font-size: 1.8rem;
     font-weight: 300;
 }
+
+p a{
+    color: dodgerblue;
+}
 /* img{
     width: 100%;
     height:auto;
@@ -301,6 +305,7 @@ color: black;
     display: flex;
     align-items: flex;
     justify-content: center;
+    align-items: cesnter;
     margin-bottom: 5rem;
     
 }
